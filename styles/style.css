@@ -4,6 +4,10 @@ body, html {
     font-size: 16px;
 }
 
+.bg_container {
+    background: #fff;
+}
+
 .content_container {
     width: 65%;
     margin: 0 auto;
@@ -20,11 +24,17 @@ body, html {
     text-decoration: none;
     font-size: 1.125rem;
     font-family: Gilroy-Bold;
+    line-height: 1.375rem;
 }
 
 .nav_bar a:visited {
     margin: 2rem 0;
     color: #828282;
+}
+
+.nav_bar a:hover {
+    color: #070707;
+    transition: color 1s;
 }
 
 .info_intro {
@@ -35,15 +45,46 @@ body, html {
 }
 
 .name {
+    font-size: 2.9587rem;
     width: min-content;
+    font-family: Gilroy-Bold;
+}
+
+.name p {
+    margin: 2.480625rem 0;
+    color: #070707;
+    line-height: 3.6875rem;
 }
 
 .work {
-    width: 8rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
+    width: 9rem;
+    font-size: 1.125rem;
+    color: #070707;
+    line-height: 1.375rem;
+    font-family: Gilroy-Medium;
 }
 
 .language {
+    padding-top: 3rem;
     transform: rotate(-90deg);
+    font-family: Gilroy-Bold;
+}
+
+.lang_btn {
+    padding: 0;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    font-family: Gilroy-Bold;
+    color: #828282;
+}
+
+.lang_btn:hover {
+    color: #070707;
+    transition: color 1s;
+    cursor: pointer;
 }
 
 .photo {
@@ -52,4 +93,3 @@ body, html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
