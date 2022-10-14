@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.content_container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.nav_bar {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-family: Gilroy-Bold;
+}
+
+.nav_bar a:visited {
+    margin: 2rem 0;
+    color: #828282;
+}
+
+.info_intro {
+    border-top: 1px solid #828282;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    width: min-content;
+}
+
+.work {
+    width: 8rem;
+}
+
+.language {
+    transform: rotate(-90deg);
+}
+
+.photo {
+    padding: 16rem 0;
+    background-image: url(../image/BSPP2266.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
